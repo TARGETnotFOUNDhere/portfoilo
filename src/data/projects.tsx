@@ -202,7 +202,7 @@ const projects: Project[] = [
     id: "srtsync",
     category: "Subtitle synchronization tool",
     title: "SRTSync",
-    src: "/assets/projects-screenshots/portfolio/landing.png",
+    src: "/assets/projects-screenshots/lakshya/srtsync.svg",
     screenshots: [],
     skills: {
       frontend: [
@@ -231,7 +231,7 @@ const projects: Project[] = [
     id: "educertify",
     category: "Certificate verification system",
     title: "EduCertify",
-    src: "/assets/projects-screenshots/portfolio/project.png",
+    src: "/assets/projects-screenshots/lakshya/educertify.svg",
     screenshots: [],
     skills: {
       frontend: [PROJECT_SKILLS.js],
@@ -255,7 +255,7 @@ const projects: Project[] = [
     id: "virtual-classroom",
     category: "Interactive learning interface",
     title: "Virtual Classroom",
-    src: "/assets/projects-screenshots/portfolio/projects.png",
+    src: "/assets/projects-screenshots/lakshya/classroom.svg",
     screenshots: [],
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.js],
@@ -279,7 +279,7 @@ const projects: Project[] = [
     id: "online-feedback",
     category: "C++ data structures project",
     title: "Online Feedback Collection System",
-    src: "/assets/projects-screenshots/portfolio/skills.png",
+    src: "/assets/projects-screenshots/lakshya/feedback.svg",
     screenshots: [],
     skills: {
       frontend: [],

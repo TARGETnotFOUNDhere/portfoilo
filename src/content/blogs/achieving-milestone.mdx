@@ -1,29 +1,30 @@
 ---
-title: "Achieving Milestone: Adding Blogs Section"
-publishedAt: "2024-05-27"
-summary: "A humorous take on the monumental task of adding a blog section to my portfolio."
-author: "Naresh Khatri"
-tags: ["milestone", "humor", "portfolio"]
+title: "Building SRTSync: Turning Subtitle Timing Into a Better Workflow"
+publishedAt: "2026-09-17"
+summary: "How I built SRTSync as a focused frontend project for editing, validating, and exporting subtitle timing without friction."
+author: "Lakshya Purohit"
+tags: ["SRTSync", "React", "frontend"]
 ---
 
-# Achieving Milestone: Adding Blogs Section
+# Building SRTSync: Turning Subtitle Timing Into a Better Workflow
 
-Finally! The day has come. The stars have aligned, the code has compiled, and I have successfully added a blog section to my portfolio. It's a small step for a developer, but a giant leap for my procrastination.
+I built SRTSync to make subtitle timing work feel less frustrating. The goal was simple: give people a clear way to shift, stretch, validate, preview, and download SRT files from one focused interface.
 
-## The Journey
+## The Problem
 
-It started with a simple thought: "I should have a blog." That thought was immediately followed by a year of overthinking the design, 3 months of debating between a CMS and Markdown, and 2 weeks of actually writing code.
+Subtitle timing is easy to get slightly wrong and surprisingly tedious to fix by hand. A small offset can affect an entire file, while FPS changes can create drift across a video. I wanted the workflow to make those operations visible and reversible.
 
-### Why Space Theme?
+## What I Built
 
-Because why not? If I'm going to write about code, I might as well do it while floating in the void of the internet. Plus, dark mode is default in space.
+- A React interface for shifting subtitle timestamps.
+- FPS stretching for adapting subtitles to a different video frame rate.
+- Validation feedback for malformed or overlapping subtitle entries.
+- Live preview, undo/reset controls, and instant SRT export.
 
-## What to Expect?
+## What I Learned
 
-- **Tech Rants**: Opinions on frameworks I barely use.
-- **Tutorials**: How to center a div (spoiler: use flexbox).
-- **Life Updates**: Mostly about how much coffee I consumed.
+The most useful part of the project was learning to keep complex state understandable. Every edit needs to be predictable, and every destructive-looking action should be easy to undo. That pushed me toward reusable components, explicit time utilities, and validation close to the editing experience.
 
-## Conclusion
+## Next Steps
 
-Stay tuned for more content. Or don't. I'm just happy this page renders without errors. 🚀
+I want to keep improving the editor with stronger accessibility, more import/export options, and clearer feedback for edge cases. SRTSync is also a good example of the kind of practical, user-focused software I want to keep building.

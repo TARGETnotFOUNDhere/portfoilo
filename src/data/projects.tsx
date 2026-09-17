@@ -195,7 +195,7 @@ export type Project = {
   skills: { frontend: Skill[]; backend: Skill[] };
   content: React.ReactNode | any;
   github?: string;
-  live: string;
+  live?: string;
 };
 const projects: Project[] = [
   {
@@ -319,7 +319,6 @@ const projects: Project[] = [
       ],
     },
     live: "https://www.codingducks.xyz/",
-    github: "https://github.com/Naresh-Khatri/Coding-Ducks",
     get content() {
       return (
         <div>
@@ -504,8 +503,6 @@ const projects: Project[] = [
         PROJECT_SKILLS.docker,
       ],
     },
-    live: "https://waku.nareshkhatri.dev",
-    github: "https://github.com/Naresh-Khatri/waku",
     get content() {
       return (
         <div>
@@ -688,8 +685,6 @@ const projects: Project[] = [
         PROJECT_SKILLS.docker,
       ],
     },
-    live: "https://kanbi.nareshkhatri.dev",
-    github: "https://github.com/naresh-Khatri/kanbi",
     get content() {
       return (
         <div>
@@ -778,8 +773,8 @@ const projects: Project[] = [
     title: "My Portfolio",
     src: "/assets/projects-screenshots/portfolio/landing.png",
     screenshots: ["1.png"],
-    live: "http://nareshkhatri.vercel.app",
-    github: "https://github.com/Naresh-Khatri/Portfolio",
+    live: "https://3d-portfolio-main-rho.vercel.app",
+    github: "https://github.com/TARGETnotFOUNDhere/portfoilo",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,

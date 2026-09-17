@@ -21,12 +21,12 @@ const config = {
     "Framer Motion",
   ],
   author: "Lakshya Purohit",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.dev",
+  email: "lakshyapurohit006@gmail.com",
+  site: "https://3d-portfolio-main-rho.vercel.app",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
-  githubRepo: "3d-portfolio",
+  githubUsername: "TARGETnotFOUNDhere",
+  githubRepo: "portfoilo",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
@@ -34,8 +34,6 @@ const config = {
   social: {
     twitter: "https://x.com/Lakshya46392190",
     linkedin: "https://www.linkedin.com/in/lakshya-purohit-065707372/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
     github: "https://github.com/TARGETnotFOUNDhere",
   },
 };

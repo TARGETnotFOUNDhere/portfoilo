@@ -199,6 +199,107 @@ export type Project = {
 };
 const projects: Project[] = [
   {
+    id: "srtsync",
+    category: "Subtitle synchronization tool",
+    title: "SRTSync",
+    src: "/assets/projects-screenshots/portfolio/landing.png",
+    screenshots: [],
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.js,
+        PROJECT_SKILLS.tailwind,
+      ],
+      backend: [],
+    },
+    live: "#",
+    github: "https://github.com/TARGETnotFOUNDhere/SRTsync",
+    content: (
+      <div>
+        <TypographyP className="font-mono text-2xl text-center">
+          A focused workspace for editing, validating, previewing, and exporting subtitle timing.
+        </TypographyP>
+        <TypographyP className="font-mono">
+          SRTSync helps creators shift subtitle timestamps, stretch timing for a different FPS,
+          validate subtitle files, preview changes, undo edits, and download the finished file.
+        </TypographyP>
+        <ProjectsLinks live={undefined} repo="https://github.com/TARGETnotFOUNDhere/SRTsync" />
+      </div>
+    ),
+  },
+  {
+    id: "educertify",
+    category: "Certificate verification system",
+    title: "EduCertify",
+    src: "/assets/projects-screenshots/portfolio/project.png",
+    screenshots: [],
+    skills: {
+      frontend: [PROJECT_SKILLS.js],
+      backend: [],
+    },
+    live: "#",
+    github: "#",
+    content: (
+      <div>
+        <TypographyP className="font-mono text-2xl text-center">
+          A simple way to verify certificates with unique IDs and QR codes.
+        </TypographyP>
+        <TypographyP className="font-mono">
+          EduCertify provides a responsive verification experience for checking certificate
+          records and accessing them through QR-code-based links.
+        </TypographyP>
+      </div>
+    ),
+  },
+  {
+    id: "virtual-classroom",
+    category: "Interactive learning interface",
+    title: "Virtual Classroom",
+    src: "/assets/projects-screenshots/portfolio/projects.png",
+    screenshots: [],
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.js],
+      backend: [],
+    },
+    live: "#",
+    github: "#",
+    content: (
+      <div>
+        <TypographyP className="font-mono text-2xl text-center">
+          An interactive classroom interface for navigating lessons and assignments.
+        </TypographyP>
+        <TypographyP className="font-mono">
+          Built with reusable React components, the project focuses on clear navigation and a
+          structured experience for students and instructors.
+        </TypographyP>
+      </div>
+    ),
+  },
+  {
+    id: "online-feedback",
+    category: "C++ data structures project",
+    title: "Online Feedback Collection System",
+    src: "/assets/projects-screenshots/portfolio/skills.png",
+    screenshots: [],
+    skills: {
+      frontend: [],
+      backend: [],
+    },
+    live: "#",
+    github: "#",
+    content: (
+      <div>
+        <TypographyP className="font-mono text-2xl text-center">
+          A C++ application for collecting and managing user feedback.
+        </TypographyP>
+        <TypographyP className="font-mono">
+          The project applies data structures and logical problem-solving techniques to organize
+          feedback and make stored responses easier to manage.
+        </TypographyP>
+      </div>
+    ),
+  },
+  {
     id: "storekit",
     category: "Commerce platform",
     title: "StoreKit",

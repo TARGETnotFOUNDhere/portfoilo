@@ -933,4 +933,12 @@ const projects: Project[] = [
     },
   },
 ];
-export default projects;
+
+const lakshyaProjectIds = new Set([
+  "srtsync",
+  "educertify",
+  "virtual-classroom",
+  "online-feedback",
+]);
+
+export default projects.filter((project) => lakshyaProjectIds.has(project.id));
